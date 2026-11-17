@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1130" height="790" font-family="Segoe UI, Calibri, sans-serif">
+<rect width="1130" height="790" fill="#fff"/><path d="M310,110 L420,110" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<text x="324" y="103" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="start">1</text>
+<text x="406" y="103" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">*</text>
+<rect x="333.8" y="119" width="62.4" height="18" rx="9" fill="#F5F7FA" stroke="#C9D1DC"/>
+<text x="365" y="133" font-size="12" font-style="italic" text-anchor="middle" fill="#5B6675">possède</text><path d="M175,179 L175,330" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<text x="191" y="201" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">1</text>
+<text x="191" y="320" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">*</text>
+<rect x="143.8" y="243.5" width="62.4" height="18" rx="9" fill="#F5F7FA" stroke="#C9D1DC"/>
+<text x="175" y="257.5" font-size="12" font-style="italic" text-anchor="middle" fill="#5B6675">emploie</text><path d="M690,90 L820,90" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<text x="704" y="83" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="start">*</text>
+<text x="806" y="83" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">*</text>
+<rect x="716.6" y="99" width="76.8" height="18" rx="9" fill="#F5F7FA" stroke="#C9D1DC"/>
+<text x="755" y="113" font-size="12" font-style="italic" text-anchor="middle" fill="#5B6675">équipé de</text><path d="M690,200 L820,200" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<text x="704" y="193" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="start">1</text>
+<text x="806" y="193" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">*</text>
+<rect x="731" y="209" width="48" height="18" rx="9" fill="#F5F7FA" stroke="#C9D1DC"/>
+<text x="755" y="223" font-size="12" font-style="italic" text-anchor="middle" fill="#5B6675">subit</text><path d="M555,400 L555,217" fill="none" stroke="#1B2430" stroke-width="1.6"/><polyline points="549.7804135906653,227.80536522823212 555,217 560.2195864093347,227.80536522823212" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<text x="571" y="390" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">*</text>
+<text x="571" y="239" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">1</text>
+<rect x="520.2" y="297.5" width="69.6" height="18" rx="9" fill="#F5F7FA" stroke="#C9D1DC"/>
+<text x="555" y="311.5" font-size="12" font-style="italic" text-anchor="middle" fill="#5B6675">concerne</text><path d="M310,620 L365,620 L365,470 L420,470" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<text x="324" y="613" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="start">1</text>
+<text x="406" y="463" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">*</text>
+<rect x="330.2" y="534" width="69.6" height="18" rx="9" fill="#F5F7FA" stroke="#C9D1DC"/>
+<text x="365" y="548" font-size="12" font-style="italic" text-anchor="middle" fill="#5B6675">effectue</text><path d="M690,480 L820,480" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<text x="704" y="473" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="start">1</text>
+<text x="806" y="473" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">0..1</text>
+<rect x="705.8" y="489" width="98.4" height="18" rx="9" fill="#F5F7FA" stroke="#C9D1DC"/>
+<text x="755" y="503" font-size="12" font-style="italic" text-anchor="middle" fill="#5B6675">donne lieu à</text><path d="M955,550 L955,640" fill="none" stroke="#1B2430" stroke-width="1.6"/><polygon points="955,550 949.7263190753538,559.6534081807941 955,570 960.2736809246462,559.6534081807941" fill="#1B2430"/>
+<text x="971" y="572" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">1</text>
+<text x="971" y="630" font-size="13" font-weight="700" fill="#1F4EA6" text-anchor="end">*</text>
+<rect x="916.6" y="584" width="76.8" height="18" rx="9" fill="#F5F7FA" stroke="#C9D1DC"/>
+<text x="955" y="598" font-size="12" font-style="italic" text-anchor="middle" fill="#5B6675">réglé par</text><g><rect x="40" y="40" width="270" height="139" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="40" y="40" width="270" height="34" rx="6" fill="#005157"/><rect x="40" y="68" width="270" height="6" fill="#005157"/>
+<text x="175" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Agence</text>
+<text x="52" y="94" font-size="13" fill="#1B2430">idAgence : Long</text><text x="52" y="113" font-size="13" fill="#1B2430">nom : String</text><text x="52" y="132" font-size="13" fill="#1B2430">ville : String</text><text x="52" y="151" font-size="13" fill="#1B2430">adresse : String</text><text x="52" y="170" font-size="13" fill="#1B2430">telephone : String</text></g><g><rect x="40" y="330" width="270" height="120" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="40" y="330" width="270" height="34" rx="6" fill="#005157"/><rect x="40" y="358" width="270" height="6" fill="#005157"/>
+<text x="175" y="352" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Employe</text>
+<text x="52" y="384" font-size="13" fill="#1B2430">idEmploye : Long</text><text x="52" y="403" font-size="13" fill="#1B2430">nom : String</text><text x="52" y="422" font-size="13" fill="#1B2430">prenom : String</text><text x="52" y="441" font-size="13" fill="#1B2430">role : RoleEmploye</text></g><g><rect x="420" y="40" width="270" height="177" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="420" y="40" width="270" height="34" rx="6" fill="#005157"/><rect x="420" y="68" width="270" height="6" fill="#005157"/>
+<text x="555" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Vehicule</text>
+<text x="432" y="94" font-size="13" fill="#1B2430">idVehicule : Long</text><text x="432" y="113" font-size="13" fill="#1B2430">immatriculation : String</text><text x="432" y="132" font-size="13" fill="#1B2430">marque : String</text><text x="432" y="151" font-size="13" fill="#1B2430">modele : String</text><text x="432" y="170" font-size="13" fill="#1B2430">categorie : CategorieVehicule</text><text x="432" y="189" font-size="13" fill="#1B2430">tarifJournalier : BigDecimal</text><text x="432" y="208" font-size="13" fill="#1B2430">statut : StatutVehicule</text></g><g><rect x="820" y="40" width="270" height="82" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="820" y="40" width="270" height="34" rx="6" fill="#005157"/><rect x="820" y="68" width="270" height="6" fill="#005157"/>
+<text x="955" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Equipement</text>
+<text x="832" y="94" font-size="13" fill="#1B2430">idEquipement : Long</text><text x="832" y="113" font-size="13" fill="#1B2430">libelle : String</text></g><g><rect x="820" y="150" width="270" height="120" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="820" y="150" width="270" height="34" rx="6" fill="#005157"/><rect x="820" y="178" width="270" height="6" fill="#005157"/>
+<text x="955" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Maintenance</text>
+<text x="832" y="204" font-size="13" fill="#1B2430">idMaintenance : Long</text><text x="832" y="223" font-size="13" fill="#1B2430">dateDebut : LocalDate</text><text x="832" y="242" font-size="13" fill="#1B2430">dateFin : LocalDate</text><text x="832" y="261" font-size="13" fill="#1B2430">description : String</text></g><g><rect x="420" y="400" width="270" height="120" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="420" y="400" width="270" height="34" rx="6" fill="#005157"/><rect x="420" y="428" width="270" height="6" fill="#005157"/>
+<text x="555" y="422" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Reservation</text>
+<text x="432" y="454" font-size="13" fill="#1B2430">idReservation : Long</text><text x="432" y="473" font-size="13" fill="#1B2430">dateDebut : LocalDate</text><text x="432" y="492" font-size="13" fill="#1B2430">dateFin : LocalDate</text><text x="432" y="511" font-size="13" fill="#1B2430">statut : StatutReservation</text></g><g><rect x="40" y="560" width="270" height="158" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="40" y="560" width="270" height="34" rx="6" fill="#005157"/><rect x="40" y="588" width="270" height="6" fill="#005157"/>
+<text x="175" y="582" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Client</text>
+<text x="52" y="614" font-size="13" fill="#1B2430">idClient : Long</text><text x="52" y="633" font-size="13" fill="#1B2430">nom, prenom : String</text><text x="52" y="652" font-size="13" fill="#1B2430">email : String</text><text x="52" y="671" font-size="13" fill="#1B2430">telephone : String</text><text x="52" y="690" font-size="13" fill="#1B2430">numPermis : String</text><text x="52" y="709" font-size="13" fill="#1B2430">dateInscription : LocalDate</text></g><g><rect x="820" y="430" width="270" height="120" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="820" y="430" width="270" height="34" rx="6" fill="#005157"/><rect x="820" y="458" width="270" height="6" fill="#005157"/>
+<text x="955" y="452" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Contrat</text>
+<text x="832" y="484" font-size="13" fill="#1B2430">idContrat : Long</text><text x="832" y="503" font-size="13" fill="#1B2430">dateSignature : LocalDate</text><text x="832" y="522" font-size="13" fill="#1B2430">montantTotal : BigDecimal</text><text x="832" y="541" font-size="13" fill="#1B2430">valide : boolean</text></g><g><rect x="820" y="640" width="270" height="120" rx="6" fill="#fff" stroke="#1B2430" stroke-width="1.6"/>
+<rect x="820" y="640" width="270" height="34" rx="6" fill="#005157"/><rect x="820" y="668" width="270" height="6" fill="#005157"/>
+<text x="955" y="662" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Paiement</text>
+<text x="832" y="694" font-size="13" fill="#1B2430">idPaiement : Long</text><text x="832" y="713" font-size="13" fill="#1B2430">montant : BigDecimal</text><text x="832" y="732" font-size="13" fill="#1B2430">datePaiement : LocalDate</text><text x="832" y="751" font-size="13" fill="#1B2430">modePaiement : ModePaiement</text></g>
+<text x="40" y="772" font-size="12" fill="#5B6675">Losange plein : composition (ALL + orphanRemoval). Flèche : navigation à sens unique. Toutes les associations sont en FetchType.LAZY.</text></svg>

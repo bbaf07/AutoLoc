@@ -29,4 +29,23 @@ public class Reservation {
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
     private StatutReservation statut;
+
+    /** Côté propriétaire de Client 1 — * Reservation. */
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "id_client", nullable = false)
+    private Client client;
+
+    /** Côté propriétaire de Reservation * — 1 Vehicule, sans cascade. */
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "id_vehicule", nullable = false)
+    private Vehicule vehicule;
+
+    /** Côté inverse de Reservation 1 — 0..1 Contrat ; ALL car le contrat n'existe pas sans la réservation. */
+    @OneToOne(mappedBy = "reservation", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private Contrat contrat;
+
+    public void attacherContrat(Contrat nouveauContrat) {
+        this.contrat = nouveauContrat;
+        nouveauContrat.setReservation(this);
+    }
 }

@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "client")
@@ -37,4 +39,13 @@ public class Client {
 
     @Column(nullable = false)
     private LocalDate dateInscription;
+
+    /** PERSIST : une réservation ajoutée au client est enregistrée avec lui, sans être supprimée avec lui. */
+    @OneToMany(mappedBy = "client", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
+    private List<Reservation> reservations = new ArrayList<>();
+
+    public void ajouterReservation(Reservation reservation) {
+        reservations.add(reservation);
+        reservation.setClient(this);
+    }
 }
